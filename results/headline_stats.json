@@ -1,0 +1,766 @@
+{
+ "rows_raw": 19821,
+ "rows_notebook_cleaning": 19538,
+ "rows_after_dedup": 17291,
+ "rows_clean": 17148,
+ "unique_doi_clean": 15730,
+ "dropped_bad_year": 165,
+ "initials_only": 755,
+ "doi_in_multiple_countries": 1267,
+ "female_first_pct": 26.78446466060182,
+ "female_first_ci": [
+  26.126903044986715,
+  27.45242571933676
+ ],
+ "by_country": [
+  {
+   "Country": "Singapore",
+   "n": 832,
+   "female_n": 268,
+   "female_pct": 32.21153846153846,
+   "ci_low": 29.124295445932987,
+   "ci_high": 35.46229608049978
+  },
+  {
+   "Country": "France",
+   "n": 3144,
+   "female_n": 955,
+   "female_pct": 30.37531806615776,
+   "ci_low": 28.792548906592103,
+   "ci_high": 32.00598682659091
+  },
+  {
+   "Country": "USA",
+   "n": 2217,
+   "female_n": 650,
+   "female_pct": 29.318899413622013,
+   "ci_low": 27.461021019193094,
+   "ci_high": 31.24832592387569
+  },
+  {
+   "Country": "Switzerland",
+   "n": 1000,
+   "female_n": 278,
+   "female_pct": 27.8,
+   "ci_low": 25.112157934148698,
+   "ci_high": 30.657756363087046
+  },
+  {
+   "Country": "UK",
+   "n": 2900,
+   "female_n": 772,
+   "female_pct": 26.620689655172413,
+   "ci_low": 25.043765636584798,
+   "ci_high": 28.25947239127457
+  },
+  {
+   "Country": "South Africa",
+   "n": 515,
+   "female_n": 135,
+   "female_pct": 26.21359223300971,
+   "ci_low": 22.601275417806892,
+   "ci_high": 30.178147049474074
+  },
+  {
+   "Country": "Canada",
+   "n": 2467,
+   "female_n": 580,
+   "female_pct": 23.510336441021483,
+   "ci_low": 21.87890638611299,
+   "ci_high": 25.224137370313976
+  },
+  {
+   "Country": "Germany",
+   "n": 4073,
+   "female_n": 955,
+   "female_pct": 23.447090596611833,
+   "ci_low": 22.171343356798186,
+   "ci_high": 24.772879347365738
+  }
+ ],
+ "chi2_country": {
+  "chi2": 77.70031995285409,
+  "dof": 7,
+  "p": 4.0514040913236806e-14
+ },
+ "by_journal": [
+  {
+   "Publication Title": "Applied Catalysis A: General",
+   "n": 1422,
+   "female_n": 489,
+   "female_pct": 34.38818565400844,
+   "ci_low": 31.964326411330468,
+   "ci_high": 36.89616973354284
+  },
+  {
+   "Publication Title": "Energy Policy",
+   "n": 3530,
+   "female_n": 1015,
+   "female_pct": 28.753541076487252,
+   "ci_low": 27.284146415103667,
+   "ci_high": 30.26912931745888
+  },
+  {
+   "Publication Title": "International Journal of Greenhouse Gas Control",
+   "n": 1380,
+   "female_n": 395,
+   "female_pct": 28.6231884057971,
+   "ci_low": 26.300292754731803,
+   "ci_high": 31.064769836246818
+  },
+  {
+   "Publication Title": "International Journal of Hydrogen Energy",
+   "n": 6301,
+   "female_n": 1641,
+   "female_pct": 26.043485161085542,
+   "ci_low": 24.97466378275891,
+   "ci_high": 27.14150040445874
+  },
+  {
+   "Publication Title": "Solar Energy Materials and Solar Cells",
+   "n": 2363,
+   "female_n": 575,
+   "female_pct": 24.333474396953026,
+   "ci_low": 22.645908540954647,
+   "ci_high": 26.104358481561768
+  },
+  {
+   "Publication Title": "Solar Energy",
+   "n": 2152,
+   "female_n": 478,
+   "female_pct": 22.21189591078067,
+   "ci_low": 20.506037869001652,
+   "ci_high": 24.016787926733986
+  }
+ ],
+ "chi2_journal": {
+  "chi2": 83.23003530415146,
+  "dof": 5,
+  "p": 1.7685782236352884e-16
+ },
+ "yearly_female_pct": {
+  "2010": 26.57502863688431,
+  "2011": 24.353256021409457,
+  "2012": 25.21572387344199,
+  "2013": 22.804054054054053,
+  "2014": 24.916107382550333,
+  "2015": 28.062554300608166,
+  "2016": 24.876847290640395,
+  "2017": 26.79640718562874,
+  "2018": 27.176566314076485,
+  "2019": 27.24458204334365,
+  "2020": 28.659070990359336,
+  "2021": 29.66333030027298,
+  "2022": 27.714581178903824,
+  "2023": 29.075425790754256,
+  "2024": 29.798356982823005,
+  "2025": 20.56737588652482
+ },
+ "trend": {
+  "yearly_r_2010_2025": 0.3049662155871186,
+  "yearly_p_2010_2025": 0.25074724344492727,
+  "yearly_r_2010_2024": 0.7905517492563782,
+  "yearly_p_2010_2024": 0.00045085502810723757,
+  "yearly_slope_pp_2010_2024": 0.3668584781505663,
+  "logit_or_per_year_2010_2024": 1.0199239897106978,
+  "logit_p_2010_2024": 1.8538500663811359e-06
+ },
+ "citations": {
+  "mean_male": 43.0989247311828,
+  "mean_female": 40.2305682560418,
+  "median_male": 24.0,
+  "median_female": 23.0,
+  "pct_more_male": 7.12979358602579,
+  "mannwhitney_p": 0.09702270445570796,
+  "n_male": 12555,
+  "n_female": 4593
+ },
+ "other_metrics": {
+  "Citations": {
+   "mean_male": 43.0989247311828,
+   "mean_female": 40.2305682560418,
+   "median_male": 24.0,
+   "median_female": 23.0,
+   "p": 0.09702270445570796
+  },
+  "Usages": {
+   "mean_male": 12.720669056152927,
+   "mean_female": 8.945133899412149,
+   "median_male": 0.0,
+   "median_female": 0.0,
+   "p": 0.5673490914564197
+  },
+  "Captures": {
+   "mean_male": 72.0163281561131,
+   "mean_female": 69.50402786849554,
+   "median_male": 41.0,
+   "median_female": 41.0,
+   "p": 0.5107666576585573
+  },
+  "Mentions": {
+   "mean_male": 0.3365989645559538,
+   "mean_female": 0.3881994339211844,
+   "median_male": 0.0,
+   "median_female": 0.0,
+   "p": 0.03555738242732594
+  },
+  "Social Media": {
+   "mean_male": 250.43743528474712,
+   "mean_female": 204.25451774439364,
+   "median_male": 0.0,
+   "median_female": 0.0,
+   "p": 0.6391475949116674
+  },
+  "Citations (Crossref)": {
+   "mean_male": 40.39418558343289,
+   "mean_female": 37.61985630306989,
+   "median_male": 23.0,
+   "median_female": 21.0,
+   "p": 0.154809284205767
+  },
+  "First Author H-Index": {
+   "mean_male": 14.711748307447232,
+   "mean_female": 11.213803614195514,
+   "median_male": 10.0,
+   "median_female": 8.0,
+   "p": 1.5652944471449806e-45
+  }
+ },
+ "citation_models": {
+  "M1 gender only": {
+   "pct": -2.2516719406348806,
+   "ci": [
+    -6.20340361382381,
+    1.8665496033867912
+   ],
+   "p": 0.27940591326473385,
+   "n": 17148
+  },
+  "M2 + year, journal, country": {
+   "pct": 1.8985144466789894,
+   "ci": [
+    -1.3480994250820166,
+    5.251973716966374
+   ],
+   "p": 0.2549428264799558,
+   "n": 17148
+  },
+  "M3 + first-author h-index": {
+   "pct": 5.956543289073424,
+   "ci": [
+    2.619277885744875,
+    9.402339375931557
+   ],
+   "p": 0.0003948578926004141,
+   "n": 17148
+  }
+ },
+ "gap_by_period": {
+  "2010-2019": {
+   "male": 53.78260365994904,
+   "female": 51.62063227953411,
+   "pct": 4.188192366004939,
+   "p": 0.7573120500639684
+  },
+  "2020-2025": {
+   "male": 19.57357816883448,
+   "female": 18.676952141057935,
+   "pct": 4.800708493574146,
+   "p": 0.982570888568774
+  }
+ },
+ "metric_share": {
+  "Canada": {
+   "papers": 14.386517378119898,
+   "Citations": 14.983344492110332,
+   "Usages": 3.9393803568849513,
+   "Captures": 14.567715958106813,
+   "Mentions": 12.91396238974871,
+   "Social Media": 5.045117030910623
+  },
+  "France": {
+   "papers": 18.33449965010497,
+   "Citations": 17.694238489239357,
+   "Usages": 3.5075923961492683,
+   "Captures": 15.89590296526802,
+   "Mentions": 8.570477616907972,
+   "Social Media": 9.276959070229324
+  },
+  "Germany": {
+   "papers": 23.75204105435036,
+   "Citations": 22.964900824647398,
+   "Usages": 5.2735902147983245,
+   "Captures": 23.200154978310394,
+   "Mentions": 21.05175569978366,
+   "Social Media": 41.13957460630225
+  },
+  "Singapore": {
+   "papers": 4.851877770002333,
+   "Citations": 5.752418423829637,
+   "Usages": 0.6031086741071651,
+   "Captures": 4.666596370597606,
+   "Mentions": 5.841238142785821,
+   "Social Media": 9.165455568475569
+  },
+  "South Africa": {
+   "papers": 3.0032656869605785,
+   "Citations": 3.4203717939180533,
+   "Usages": 0.631496117892556,
+   "Captures": 3.0111239442306954,
+   "Mentions": 1.0151439507405557,
+   "Social Media": 0.03894784002382922
+  },
+  "Switzerland": {
+   "papers": 5.831583858175881,
+   "Citations": 6.247261966755111,
+   "Usages": 0.7455439183636879,
+   "Captures": 6.843485802237541,
+   "Mentions": 6.407056082542852,
+   "Social Media": 9.156024802180491
+  },
+  "UK": {
+   "papers": 16.911593188710054,
+   "Citations": 17.14856051776725,
+   "Usages": 81.78571962169995,
+   "Captures": 20.380873910921803,
+   "Mentions": 23.348310867032783,
+   "Social Media": 18.483395604968962
+  },
+  "USA": {
+   "papers": 12.928621413575927,
+   "Citations": 11.788903491732862,
+   "Usages": 3.5135687001040874,
+   "Captures": 11.434146070327131,
+   "Mentions": 20.852055250457646,
+   "Social Media": 7.694525476908953
+  }
+ },
+ "metric_coverage": {
+  "Canada": {
+   "usages_nonzero_pct": 2.1483583299554114,
+   "social_nonzero_pct": 8.512363194162951
+  },
+  "France": {
+   "usages_nonzero_pct": 1.4631043256997456,
+   "social_nonzero_pct": 7.569974554707379
+  },
+  "Germany": {
+   "usages_nonzero_pct": 1.4240117849251166,
+   "social_nonzero_pct": 9.231524674686963
+  },
+  "Singapore": {
+   "usages_nonzero_pct": 1.5625,
+   "social_nonzero_pct": 8.413461538461538
+  },
+  "South Africa": {
+   "usages_nonzero_pct": 2.3300970873786406,
+   "social_nonzero_pct": 10.097087378640776
+  },
+  "Switzerland": {
+   "usages_nonzero_pct": 1.6,
+   "social_nonzero_pct": 8.3
+  },
+  "UK": {
+   "usages_nonzero_pct": 29.689655172413794,
+   "social_nonzero_pct": 17.20689655172414
+  },
+  "USA": {
+   "usages_nonzero_pct": 3.247631935047361,
+   "social_nonzero_pct": 9.336941813261165
+  }
+ },
+ "metric_concentration": {
+  "largest_usage_record_pct": 26.614473612127913,
+  "top5_social_records_pct": 25.786532032883734
+ },
+ "journal_mix": {
+  "Canada": {
+   "Applied Catalysis A: General": 6.53,
+   "Energy Policy": 13.42,
+   "International Journal of Greenhouse Gas Control": 9.85,
+   "International Journal of Hydrogen Energy": 55.94,
+   "Solar Energy": 9.49,
+   "Solar Energy Materials and Solar Cells": 4.78
+  },
+  "France": {
+   "Applied Catalysis A: General": 12.34,
+   "Energy Policy": 13.45,
+   "International Journal of Greenhouse Gas Control": 4.93,
+   "International Journal of Hydrogen Energy": 44.56,
+   "Solar Energy": 11.58,
+   "Solar Energy Materials and Solar Cells": 13.14
+  },
+  "Germany": {
+   "Applied Catalysis A: General": 6.87,
+   "Energy Policy": 21.29,
+   "International Journal of Greenhouse Gas Control": 5.08,
+   "International Journal of Hydrogen Energy": 33.91,
+   "Solar Energy": 11.78,
+   "Solar Energy Materials and Solar Cells": 21.07
+  },
+  "Singapore": {
+   "Applied Catalysis A: General": 8.17,
+   "Energy Policy": 16.47,
+   "International Journal of Greenhouse Gas Control": 2.88,
+   "International Journal of Hydrogen Energy": 35.7,
+   "Solar Energy": 18.99,
+   "Solar Energy Materials and Solar Cells": 17.79
+  },
+  "South Africa": {
+   "Applied Catalysis A: General": 14.37,
+   "Energy Policy": 6.99,
+   "International Journal of Greenhouse Gas Control": 3.69,
+   "International Journal of Hydrogen Energy": 51.07,
+   "Solar Energy": 19.81,
+   "Solar Energy Materials and Solar Cells": 4.08
+  },
+  "Switzerland": {
+   "Applied Catalysis A: General": 4.6,
+   "Energy Policy": 27.2,
+   "International Journal of Greenhouse Gas Control": 5.6,
+   "International Journal of Hydrogen Energy": 16.9,
+   "Solar Energy": 16.2,
+   "Solar Energy Materials and Solar Cells": 29.5
+  },
+  "UK": {
+   "Applied Catalysis A: General": 4.97,
+   "Energy Policy": 30.55,
+   "International Journal of Greenhouse Gas Control": 10.48,
+   "International Journal of Hydrogen Energy": 35.14,
+   "Solar Energy": 11.38,
+   "Solar Energy Materials and Solar Cells": 7.48
+  },
+  "USA": {
+   "Applied Catalysis A: General": 11.77,
+   "Energy Policy": 26.07,
+   "International Journal of Greenhouse Gas Control": 16.78,
+   "International Journal of Hydrogen Energy": 17.64,
+   "Solar Energy": 14.52,
+   "Solar Energy Materials and Solar Cells": 13.22
+  }
+ },
+ "threshold": {
+  "0.0": {
+   "n": 17148,
+   "female_pct": 26.78446466060182
+  },
+  "0.6": {
+   "n": 15329,
+   "female_pct": 24.469958901428665
+  },
+  "0.7": {
+   "n": 11755,
+   "female_pct": 17.24372607401106
+  },
+  "0.8": {
+   "n": 8964,
+   "female_pct": 9.504685408299867
+  },
+  "0.9": {
+   "n": 5558,
+   "female_pct": 4.91183879093199
+  }
+ },
+ "confidence_bands": {
+  "0.5-0.6": {
+   "n": 1819,
+   "female_pct": 46.2891698735569
+  },
+  "0.6-0.7": {
+   "n": 3574,
+   "female_pct": 48.237269166200335
+  },
+  "0.7-0.8": {
+   "n": 2791,
+   "female_pct": 42.0996058760301
+  },
+  "0.8-0.9": {
+   "n": 3406,
+   "female_pct": 16.999412800939517
+  },
+  "0.9-1.0": {
+   "n": 5558,
+   "female_pct": 4.91183879093199
+  }
+ },
+ "name_spot_check": {
+  "sarah": {
+   "n": 34,
+   "female_pct": 100.0,
+   "mean_conf": 0.685995101318853
+  },
+  "laura": {
+   "n": 38,
+   "female_pct": 100.0,
+   "mean_conf": 0.7283519024018138
+  },
+  "julia": {
+   "n": 17,
+   "female_pct": 100.0,
+   "mean_conf": 0.7364196768720999
+  },
+  "anna": {
+   "n": 49,
+   "female_pct": 100.0,
+   "mean_conf": 0.8470480366939294
+  },
+  "maria": {
+   "n": 27,
+   "female_pct": 100.0,
+   "mean_conf": 0.8973030506879863
+  },
+  "michael": {
+   "n": 127,
+   "female_pct": 0.0,
+   "mean_conf": 0.9372677619122649
+  },
+  "thomas": {
+   "n": 114,
+   "female_pct": 0.0,
+   "mean_conf": 0.9592266573362637
+  },
+  "david": {
+   "n": 118,
+   "female_pct": 0.0,
+   "mean_conf": 0.9518997380830307
+  }
+ },
+ "robust_groups": {
+  "Singapore": {
+   "none": 32.21153846153847,
+   "0.6": 27.728613569321535,
+   "0.7": 15.36144578313253,
+   "kept_0.7_pct": 39.90384615384615,
+   "mean_conf": 0.7160635288334963
+  },
+  "France": {
+   "none": 30.375318066157757,
+   "0.6": 29.05166312809625,
+   "0.7": 23.604395604395602,
+   "kept_0.7_pct": 72.36005089058524,
+   "mean_conf": 0.7935498401832686
+  },
+  "USA": {
+   "none": 29.318899413622013,
+   "0.6": 25.933503836317133,
+   "0.7": 16.584680252986647,
+   "kept_0.7_pct": 64.18583671628326,
+   "mean_conf": 0.7846820850380432
+  },
+  "Switzerland": {
+   "none": 27.800000000000004,
+   "0.6": 26.50862068965517,
+   "0.7": 20.421607378129117,
+   "kept_0.7_pct": 75.9,
+   "mean_conf": 0.8128593994686081
+  },
+  "UK": {
+   "none": 26.620689655172413,
+   "0.6": 24.170245997657165,
+   "0.7": 15.764582238570679,
+   "kept_0.7_pct": 65.62068965517241,
+   "mean_conf": 0.7918061107230763
+  },
+  "South Africa": {
+   "none": 26.21359223300971,
+   "0.6": 20.46511627906977,
+   "0.7": 15.593220338983052,
+   "kept_0.7_pct": 57.28155339805825,
+   "mean_conf": 0.7580837375647473
+  },
+  "Canada": {
+   "none": 23.510336441021483,
+   "0.6": 19.721577726218097,
+   "0.7": 11.948881789137381,
+   "kept_0.7_pct": 63.43737332792866,
+   "mean_conf": 0.7834846025711061
+  },
+  "Germany": {
+   "none": 23.447090596611833,
+   "0.6": 22.576396206533193,
+   "0.7": 16.07867624102404,
+   "kept_0.7_pct": 78.63982322612326,
+   "mean_conf": 0.8315446233275389
+  },
+  "Applied Catalysis A: General": {
+   "none": 34.38818565400844,
+   "0.6": 31.621187800963078,
+   "0.7": 26.368715083798882,
+   "kept_0.7_pct": 62.9395218002813,
+   "mean_conf": 0.7753309321021673
+  },
+  "Energy Policy": {
+   "none": 28.753541076487256,
+   "0.6": 27.69882068339885,
+   "0.7": 19.666048237476808,
+   "kept_0.7_pct": 76.34560906515581,
+   "mean_conf": 0.8181626674346966
+  },
+  "International Journal of Greenhouse Gas Control": {
+   "none": 28.6231884057971,
+   "0.6": 26.475279106858054,
+   "0.7": 19.47261663286004,
+   "kept_0.7_pct": 71.44927536231884,
+   "mean_conf": 0.8072235137289417
+  },
+  "International Journal of Hydrogen Energy": {
+   "none": 26.043485161085545,
+   "0.6": 23.106267029972752,
+   "0.7": 15.672745194677182,
+   "kept_0.7_pct": 64.40247579749247,
+   "mean_conf": 0.78422444702418
+  },
+  "Solar Energy Materials and Solar Cells": {
+   "none": 24.333474396953026,
+   "0.6": 22.878574777308955,
+   "0.7": 15.66265060240964,
+   "kept_0.7_pct": 70.24968260685569,
+   "mean_conf": 0.8009245471733732
+  },
+  "Solar Energy": {
+   "none": 22.21189591078067,
+   "0.6": 18.524416135881104,
+   "0.7": 11.841204654346338,
+   "kept_0.7_pct": 67.8903345724907,
+   "mean_conf": 0.7950685644575395
+  }
+ },
+ "joint_model": {
+  "Canada": {
+   "or": 0.9868841859102364,
+   "p": 0.8293958570151423
+  },
+  "France": {
+   "or": 1.3993954511287265,
+   "p": 5.378728337808846e-10
+  },
+  "Singapore": {
+   "or": 1.581392999307308,
+   "p": 3.706001637712064e-08
+  },
+  "South Africa": {
+   "or": 1.150849752382368,
+   "p": 0.19275648148535973
+  },
+  "Switzerland": {
+   "or": 1.2832121003332169,
+   "p": 0.0018821608737546887
+  },
+  "UK": {
+   "or": 1.1539831166661594,
+   "p": 0.011478027344700947
+  },
+  "USA": {
+   "or": 1.3015386448055284,
+   "p": 1.3431374612113474e-05
+  },
+  "Applied Catalysis A: General": {
+   "or": 1.8141289888562284,
+   "p": 7.73075677620851e-15
+  },
+  "Energy Policy": {
+   "or": 1.4443524019354026,
+   "p": 1.0882514673636255e-08
+  },
+  "International Journal of Greenhouse Gas Control": {
+   "or": 1.4333840759020104,
+   "p": 6.429674021020606e-06
+  },
+  "International Journal of Hydrogen Energy": {
+   "or": 1.2720707171553813,
+   "p": 6.032135634041058e-05
+  },
+  "Solar Energy Materials and Solar Cells": {
+   "or": 1.1387284725520435,
+   "p": 0.0682922410164209
+  }
+ },
+ "robust_trend": {
+  "main analysis": {
+   "slope": 0.3668584781505663,
+   "p": 0.00045085502810723757,
+   "or": 1.0199239897106978,
+   "or_p": 1.8538500663811359e-06
+  },
+  "confidence >= 0.6": {
+   "slope": 0.33503982064771165,
+   "p": 0.005427775506721206,
+   "or": 1.0194512088393861,
+   "or_p": 1.9768557232127602e-05
+  },
+  "confidence >= 0.7": {
+   "slope": 0.2519966432190444,
+   "p": 0.04177519234907509,
+   "or": 1.0197788418608156,
+   "or_p": 0.0008895220457662724
+  },
+  "excluding initials-only names": {
+   "slope": 0.36461486707233803,
+   "p": 0.0012709313219927748,
+   "or": 1.0199850257851544,
+   "or_p": 2.860968930985528e-06
+  },
+  "one row per article (unique DOI)": {
+   "slope": 0.3394454236761159,
+   "p": 0.0012142441559339604,
+   "or": 1.0183373280387873,
+   "or_p": 2.4390214896869297e-05
+  },
+  "with country and journal controls": {
+   "or": 1.025612609759408,
+   "or_p": 2.140214668295386e-09
+  }
+ },
+ "robust_citations": {
+  "main analysis (OLS on log citations)": {
+   "m2_pct": 1.8985144466789894,
+   "m2_p": 0.2549428264799558,
+   "m3_pct": 5.956543289073424,
+   "m3_p": 0.0003948578926004141,
+   "n": 17148
+  },
+  "confidence >= 0.6": {
+   "m2_pct": 1.1489979867877365,
+   "m2_p": 0.5277784802445011,
+   "m3_pct": 5.895582359951446,
+   "m3_p": 0.00142618897754001,
+   "n": 15329
+  },
+  "confidence >= 0.7": {
+   "m2_pct": -2.0648772954878436,
+   "m2_p": 0.3643592439585034,
+   "m3_pct": 2.928634219600501,
+   "m3_p": 0.20624454129109437,
+   "n": 11755
+  },
+  "excluding initials-only names": {
+   "m2_pct": 1.719480849414956,
+   "m2_p": 0.31272393900225237,
+   "m3_pct": 6.1215584329568085,
+   "m3_p": 0.00037878425907792747,
+   "n": 16393
+  },
+  "one row per article (unique DOI)": {
+   "m2_pct": 2.685485127299536,
+   "m2_p": 0.1237855640318776,
+   "m3_pct": 6.728626208986177,
+   "m3_p": 0.00012901490155361488,
+   "n": 15730
+  },
+  "Poisson (ratio of mean citations)": {
+   "m2_pct": -3.072633724485363,
+   "m2_p": 0.22878230749511785,
+   "m3_pct": 3.270487865021021,
+   "m3_p": 0.20429874970640194,
+   "n": 17148
+  }
+ },
+ "h_index_unique_authors": {
+  "n": 12139,
+  "mean_female": 10.304194778527428,
+  "mean_male": 13.003780068728522,
+  "median_female": 7.0,
+  "median_male": 9.0,
+  "p": 1.2558485606852071e-23
+ }
+}

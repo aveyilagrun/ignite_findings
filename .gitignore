@@ -1,0 +1,32 @@
+# Python / editor
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.env
+
+# Data is kept out of the repository (only data/README.md is tracked)
+raw_data/
+extracted_data/
+elsevier_data/
+processed_data/
+data/*.7z
+data/*.csv
+
+# Legacy scrapers and exploratory notebooks (see HANDOVER.md before re-using)
+archive/
+
+
+# Stray plots at the repository root (figures belong in analysis/ or paper/figures/)
+/*.png
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.spl
+*.blg
+*.bbl

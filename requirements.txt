@@ -1,0 +1,23 @@
+# Python 3.9 (used for all analysis). Versions below are the ones installed when the
+# handover scripts were last run (Nov 2026).
+
+# Core: required for scripts/headline_stats.py and scripts/paper_figures.py
+numpy==1.25.0
+pandas==1.5.3
+scipy==1.11.0
+statsmodels==0.14.0
+matplotlib==3.5.2
+
+# Notebooks (analysis/ and data pipeline)
+seaborn==0.11.0
+plotly==5.5.0
+scikit-learn==1.2.2
+networkx==2.5.1
+wordcloud==1.9.2
+nltk==3.8.1
+gensim==4.3.1
+PyPDF2==3.0.1
+requests==2.28.2
+pybliometrics==4.1
+jupyter
+
