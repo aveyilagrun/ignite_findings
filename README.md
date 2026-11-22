@@ -19,7 +19,7 @@ This project measures how women are represented among first authors of energy-re
 │   └── paper_figures.py              article figures → paper/figures/
 ├── results/                          generated outputs of the scripts (do not edit)
 ├── paper/                            main.tex, figures/ (see paper/README.md)
-├── data/                             data dictionary (data/README.md); the data files are not in the repository
+├── data/                             .7z archives of every pipeline stage + data dictionary (data/README.md)
 ├── extract_data.ipynb                step 1: ScienceDirect text exports → extracted_data/*.csv
 ├── process_data.ipynb                step 2: + Crossref, Scopus h-index, PlumX metrics, Namsor gender
 ├── affiliation.ipynb                 side step: OpenAlex affiliations for the Singapore subset
@@ -31,7 +31,7 @@ This project measures how women are represented among first authors of energy-re
     └── notes/                        2025 written report on gender-classification confidence
 ```
 
-The data is not in the repository. Ask Azhar for `processed_data/` (or the `.7z` archives of each pipeline stage) and place it in the repository root. `archive/` (old scrapers; do not use) is also kept out.
+The unpacked data folders (`raw_data/`, `extracted_data/`, `elsevier_data/`, `processed_data/`) are not in the repository. Unpack them from the `.7z` archives in `data/`.
 
 ## Pipeline
 
@@ -51,7 +51,7 @@ Python 3.9 was used.
 python -m venv env
 env\Scripts\activate            # macOS/Linux: source env/bin/activate
 pip install -r requirements.txt
-# then put the processed_data/ folder in the repository root (see above)
+7z x data/processed_data.7z -o.  # creates processed_data/
 ```
 
 You only need API keys to re-run data collection (`process_data.ipynb`):

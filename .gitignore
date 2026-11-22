@@ -5,12 +5,11 @@ __pycache__/
 .vscode/
 .env
 
-# Data is kept out of the repository (only data/README.md is tracked)
+# Unpacked data folders (the tracked copies are the .7z archives in data/)
 raw_data/
 extracted_data/
 elsevier_data/
 processed_data/
-data/*.7z
 data/*.csv
 
 # Legacy scrapers and exploratory notebooks (see HANDOVER.md before re-using)

@@ -1,7 +1,5 @@
 # Data
 
-The data files are not in the repository. Ask Azhar for them.
-
 ## Files in this folder
 
 | File | Contents |
@@ -10,7 +8,7 @@ The data files are not in the repository. Ask Azhar for them.
 | `extracted_data.7z` | `extracted_data/<journal>_<country>.csv` holds records parsed by `extract_data.ipynb`. |
 | `elsevier_data.7z` | `elsevier_data/<journal>_<country>.csv` holds the extracted records plus Crossref citations, Scopus h-indices and PlumX metrics (`process_data.ipynb`). |
 | `processed_data.7z` | `processed_data/<journal>_<country>_genders.csv` holds the Elsevier records plus Namsor gender predictions. **This is the input to all analysis.** |
-| `all_singapore.csv`, `all_singapore_with_affiliations.csv` | Singapore subset plus OpenAlex affiliations (`affiliation.ipynb`). These were shared separately for name checking. |
+| `all_singapore.csv`, `all_singapore_with_affiliations.csv` | Singapore subset plus OpenAlex affiliations (`affiliation.ipynb`). These were shared separately for name checking and are not in the repository. |
 
 Extract the archives into the repository root so that `processed_data/` sits next to `scripts/`:
 
